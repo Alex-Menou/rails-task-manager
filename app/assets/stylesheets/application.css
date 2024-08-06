@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ .task-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Espace entre les lignes, optionnel */
+}
+
+.task-title {
+  margin-left: 10px; /* Espace entre la checkbox et le titre */
+  margin-right: 10px; /* Espace entre le titre et le bouton */
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
